@@ -76,7 +76,7 @@ U 1 1 5E84F8CA
 P 2950 1350
 F 0 "U?" H 2950 1725 50  0000 C CNN
 F 1 "NCH6100HV" H 2950 1634 50  0000 C CNN
-F 2 "" H 2950 1350 50  0001 C CNN
+F 2 "footprints-nad:NCH6100HV_PinSockets" H 2950 1350 50  0001 C CNN
 F 3 "" H 2950 1350 50  0001 C CNN
 	1    2950 1350
 	1    0    0    -1  
@@ -778,4 +778,37 @@ Text Notes 8250 4700 0    50   ~ 0
 Double check pushbutton\nfootprint w/ measurements
 Text Notes 650  2850 0    50   ~ 0
 TODO:\nbarrel jack pins\nHVsupply footprint\nMini360 footprint\ncheck pushbutton footprint\nfill in values\n
+$Comp
+L power:GND #PWR?
+U 1 1 5E8AC237
+P 6000 1150
+F 0 "#PWR?" H 6000 900 50  0001 C CNN
+F 1 "GND" H 6005 977 50  0000 C CNN
+F 2 "" H 6000 1150 50  0001 C CNN
+F 3 "" H 6000 1150 50  0001 C CNN
+	1    6000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E8AC419
+P 6000 850
+F 0 "#PWR?" H 6000 700 50  0001 C CNN
+F 1 "+5V" H 6015 1023 50  0000 C CNN
+F 2 "" H 6000 850 50  0001 C CNN
+F 3 "" H 6000 850 50  0001 C CNN
+	1    6000 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E8ACB0F
+P 6000 1000
+F 0 "C?" H 6115 1046 50  0000 L CNN
+F 1 "C" H 6115 955 50  0000 L CNN
+F 2 "" H 6038 850 50  0001 C CNN
+F 3 "~" H 6000 1000 50  0001 C CNN
+	1    6000 1000
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
