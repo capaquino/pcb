@@ -188,7 +188,7 @@ L Device:C C?
 U 1 1 5E8FC8CD
 P 9500 5250
 F 0 "C?" H 9615 5296 50  0000 L CNN
-F 1 "C" H 9615 5205 50  0000 L CNN
+F 1 "0.1uF" H 9615 5205 50  0000 L CNN
 F 2 "" H 9538 5100 50  0001 C CNN
 F 3 "~" H 9500 5250 50  0001 C CNN
 	1    9500 5250
@@ -199,7 +199,7 @@ L Device:R R?
 U 1 1 5E8FC8D7
 P 9900 5250
 F 0 "R?" H 9970 5296 50  0000 L CNN
-F 1 "R" H 9970 5205 50  0000 L CNN
+F 1 "1k" H 9970 5205 50  0000 L CNN
 F 2 "" V 9830 5250 50  0001 C CNN
 F 3 "~" H 9900 5250 50  0001 C CNN
 	1    9900 5250
@@ -242,7 +242,7 @@ L Device:C C?
 U 1 1 5E90326B
 P 9500 6200
 F 0 "C?" H 9615 6246 50  0000 L CNN
-F 1 "C" H 9615 6155 50  0000 L CNN
+F 1 "0.1uF" H 9615 6155 50  0000 L CNN
 F 2 "" H 9538 6050 50  0001 C CNN
 F 3 "~" H 9500 6200 50  0001 C CNN
 	1    9500 6200
@@ -253,7 +253,7 @@ L Device:R R?
 U 1 1 5E903275
 P 9900 6200
 F 0 "R?" H 9970 6246 50  0000 L CNN
-F 1 "R" H 9970 6155 50  0000 L CNN
+F 1 "1k" H 9970 6155 50  0000 L CNN
 F 2 "" V 9830 6200 50  0001 C CNN
 F 3 "~" H 9900 6200 50  0001 C CNN
 	1    9900 6200
@@ -340,7 +340,7 @@ L Device:C C?
 U 1 1 5E922411
 P 9500 3350
 F 0 "C?" H 9615 3396 50  0000 L CNN
-F 1 "C" H 9615 3305 50  0000 L CNN
+F 1 "0.1uF" H 9615 3305 50  0000 L CNN
 F 2 "" H 9538 3200 50  0001 C CNN
 F 3 "~" H 9500 3350 50  0001 C CNN
 	1    9500 3350
@@ -351,7 +351,7 @@ L Device:R R?
 U 1 1 5E92241B
 P 9900 3350
 F 0 "R?" H 9970 3396 50  0000 L CNN
-F 1 "R" H 9970 3305 50  0000 L CNN
+F 1 "1k" H 9970 3305 50  0000 L CNN
 F 2 "" V 9830 3350 50  0001 C CNN
 F 3 "~" H 9900 3350 50  0001 C CNN
 	1    9900 3350
@@ -394,7 +394,7 @@ L Device:C C?
 U 1 1 5E92243F
 P 9500 4300
 F 0 "C?" H 9615 4346 50  0000 L CNN
-F 1 "C" H 9615 4255 50  0000 L CNN
+F 1 "0.1uF" H 9615 4255 50  0000 L CNN
 F 2 "" H 9538 4150 50  0001 C CNN
 F 3 "~" H 9500 4300 50  0001 C CNN
 	1    9500 4300
@@ -405,7 +405,7 @@ L Device:R R?
 U 1 1 5E922449
 P 9900 4300
 F 0 "R?" H 9970 4346 50  0000 L CNN
-F 1 "R" H 9970 4255 50  0000 L CNN
+F 1 "1k" H 9970 4255 50  0000 L CNN
 F 2 "" V 9830 4300 50  0001 C CNN
 F 3 "~" H 9900 4300 50  0001 C CNN
 	1    9900 4300
@@ -477,8 +477,8 @@ F 3 "~" H 1250 1260 50  0001 C CNN
 	1    1200 1300
 	1    0    0    -1  
 $EndComp
-Text Notes 800  1650 0    50   ~ 0
-Need to figure out the\npins for the one I have
+Text Notes 600  900  0    39   ~ 0
+Lesson:\n3-2 connection breaks upon plug insertion\nCan be used in battery circuits or plugged-in\ndetection.
 Wire Wire Line
 	1500 1300 1850 1300
 Wire Wire Line
@@ -606,7 +606,7 @@ L Device:R R?
 U 1 1 5E8E304C
 P 7300 2650
 F 0 "R?" H 7370 2696 50  0000 L CNN
-F 1 "R" H 7370 2605 50  0000 L CNN
+F 1 "10k" H 7370 2605 50  0000 L CNN
 F 2 "" V 7230 2650 50  0001 C CNN
 F 3 "~" H 7300 2650 50  0001 C CNN
 	1    7300 2650
@@ -699,19 +699,6 @@ Wire Wire Line
 	5800 3350 6150 3350
 Wire Wire Line
 	5800 3450 6150 3450
-Text Notes 2450 2150 0    50   ~ 0
-Needs footprint:\n1x 2pin 2.54mm connector female\n1x 3pin 2.54mm connector female\nmounting holes for bars\nNeeds measurements
-$Comp
-L symbols-nad:Mini360_Buck U?
-U 1 1 5E934ADA
-P 2950 2700
-F 0 "U?" H 2950 3015 50  0000 C CNN
-F 1 "Mini360_Buck" H 2950 2924 50  0000 C CNN
-F 2 "" H 2950 2700 50  0001 C CNN
-F 3 "" H 2950 2700 50  0001 C CNN
-	1    2950 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2550 2750 2450 2750
 Wire Wire Line
@@ -772,12 +759,10 @@ F 3 "" H 3450 2550 50  0001 C CNN
 	1    3450 2550
 	1    0    0    -1  
 $EndComp
-Text Notes 2450 3400 0    50   ~ 0
-Needs footprint:\n4x 1pin 2.54mm connector female\n15.24mm x 9.144mm
 Text Notes 8250 4700 0    50   ~ 0
 Double check pushbutton\nfootprint w/ measurements
 Text Notes 650  2850 0    50   ~ 0
-TODO:\nbarrel jack pins\nHVsupply footprint\nMini360 footprint\ncheck pushbutton footprint\nfill in values\n
+TODO:\nAdd IN-3 + resistor\nfill in values\n
 $Comp
 L power:GND #PWR?
 U 1 1 5E8AC237
@@ -811,4 +796,28 @@ F 3 "~" H 6000 1000 50  0001 C CNN
 	1    6000 1000
 	-1   0    0    -1  
 $EndComp
+$Comp
+L symbols-nad:Mini360_Buck U?
+U 1 1 5E934ADA
+P 2950 2700
+F 0 "U?" H 2950 3015 50  0000 C CNN
+F 1 "Mini360_Buck" H 2950 2924 50  0000 C CNN
+F 2 "" H 2950 2700 50  0001 C CNN
+F 3 "" H 2950 2700 50  0001 C CNN
+	1    2950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA13404
+P 3400 1350
+F 0 "C?" H 3515 1396 50  0000 L CNN
+F 1 "1uF" H 3515 1305 50  0000 L CNN
+F 2 "footprints-nad:Cap_Film_250V_1uF_Nichicon" H 3438 1200 50  0001 C CNN
+F 3 "~" H 3400 1350 50  0001 C CNN
+	1    3400 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 1200
+Connection ~ 3400 1500
 $EndSCHEMATC

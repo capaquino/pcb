@@ -916,4 +916,19 @@ F 3 "" H 6800 3050 50  0001 C CNN
 $EndComp
 Text Notes 5850 3000 0    50   ~ 0
 IN-1\nHours
+Wire Wire Line
+	950  1950 950  2650
+Wire Wire Line
+	950  2650 1400 2650
+Connection ~ 1400 2650
+Wire Wire Line
+	950  5700 950  6400
+Wire Wire Line
+	950  6400 1400 6400
+Connection ~ 1400 6400
+Wire Wire Line
+	5850 4100 5850 4800
+Wire Wire Line
+	5850 4800 6300 4800
+Connection ~ 6300 4800
 $EndSCHEMATC

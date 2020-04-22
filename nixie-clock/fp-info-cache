@@ -1,4 +1,4 @@
-16944433410803412
+16947608587496412
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75264,6 +75264,13 @@ varistor SIOV
 2
 2
 footprints-nad
+Cap_Film_250V_1uF_Nichicon
+
+
+0
+2
+2
+footprints-nad
 IN-1_Socket
 
 
@@ -75284,6 +75291,13 @@ IN-2_Socket_Pins
 0
 11
 11
+footprints-nad
+Mini360_PinSockets
+
+
+0
+4
+4
 footprints-nad
 NCH6100HV_PinSockets
 Through hole straight socket strip, 1x03, 1.00mm pitch, single row (https://gct.co/files/drawings/bc065.pdf), script generated
