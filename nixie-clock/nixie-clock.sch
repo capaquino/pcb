@@ -970,4 +970,52 @@ Text Notes 6400 2850 0    50   ~ 0
 I2C
 Text Notes 6600 1900 0    50   ~ 0
 ISP
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5EA51322
+P 5900 5500
+F 0 "SW4" H 5900 5785 50  0000 C CNN
+F 1 "SW_Push" H 5900 5694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5900 5700 50  0001 C CNN
+F 3 "~" H 5900 5700 50  0001 C CNN
+	1    5900 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 5500
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5EA51ACC
+P 7300 5500
+F 0 "SW3" H 7300 5785 50  0000 C CNN
+F 1 "SW_Push" H 7300 5694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 7300 5700 50  0001 C CNN
+F 3 "~" H 7300 5700 50  0001 C CNN
+	1    7300 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 5500
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5EA520BA
+P 8550 5500
+F 0 "SW2" H 8550 5785 50  0000 C CNN
+F 1 "SW_Push" H 8550 5694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 8550 5700 50  0001 C CNN
+F 3 "~" H 8550 5700 50  0001 C CNN
+	1    8550 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 5500
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5EA526A8
+P 10100 5500
+F 0 "SW1" H 10100 5785 50  0000 C CNN
+F 1 "SW_Push" H 10100 5694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 10100 5700 50  0001 C CNN
+F 3 "~" H 10100 5700 50  0001 C CNN
+	1    10100 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 5500
 $EndSCHEMATC

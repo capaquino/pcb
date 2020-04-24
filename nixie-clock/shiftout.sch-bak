@@ -120,8 +120,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 1950 950  1950
 Wire Wire Line
-	3950 1150 4250 1150
-Wire Wire Line
 	3950 1250 4250 1250
 Wire Wire Line
 	3950 1350 4250 1350
@@ -139,8 +137,6 @@ Wire Wire Line
 	3950 1950 4250 1950
 Wire Wire Line
 	4250 2050 4100 2050
-Wire Wire Line
-	4100 2050 4100 1050
 Wire Wire Line
 	4100 1050 3950 1050
 Wire Wire Line
@@ -950,4 +946,176 @@ SRCLK
 Text GLabel 5950 4000 0    50   Input ~ 0
 SRLATCH
 NoConn ~ 7200 4400
+Wire Wire Line
+	4100 2050 4100 1050
+Wire Wire Line
+	3950 1150 4250 1150
+Text Label 2450 1350 0    50   ~ 0
+N1_A
+Text Label 2450 1450 0    50   ~ 0
+N1_B
+Text Label 2450 1550 0    50   ~ 0
+N1_C
+Text Label 2450 1650 0    50   ~ 0
+N1_D
+Text Label 2450 1750 0    50   ~ 0
+N2_A
+Text Label 2450 1850 0    50   ~ 0
+N2_B
+Text Label 2450 1950 0    50   ~ 0
+N2_C
+Text Label 2450 2050 0    50   ~ 0
+N2_D
+Text Label 3950 2700 0    50   ~ 0
+N2_0
+Text Label 3950 2800 0    50   ~ 0
+N2_1
+Text Label 3950 2900 0    50   ~ 0
+N2_2
+Text Label 3950 3000 0    50   ~ 0
+N2_3
+Text Label 3950 3100 0    50   ~ 0
+N2_4
+Text Label 3950 3200 0    50   ~ 0
+N2_5
+Text Label 3950 3300 0    50   ~ 0
+N2_6
+Text Label 3950 3400 0    50   ~ 0
+N2_7
+Text Label 3950 3500 0    50   ~ 0
+N2_8
+Text Label 3950 3600 0    50   ~ 0
+N2_9
+Text Label 3950 1050 0    50   ~ 0
+N1_0
+Text Label 3950 1150 0    50   ~ 0
+N1_1
+Text Label 3950 1250 0    50   ~ 0
+N1_2
+Text Label 3950 1350 0    50   ~ 0
+N1_3
+Text Label 3950 1450 0    50   ~ 0
+N1_4
+Text Label 3950 1550 0    50   ~ 0
+N1_5
+Text Label 3950 1650 0    50   ~ 0
+N1_6
+Text Label 3950 1750 0    50   ~ 0
+N1_7
+Text Label 3950 1850 0    50   ~ 0
+N1_8
+Text Label 3950 1950 0    50   ~ 0
+N1_9
+Text Label 2450 5100 0    50   ~ 0
+N3_A
+Text Label 2450 5200 0    50   ~ 0
+N3_B
+Text Label 2450 5300 0    50   ~ 0
+N3_C
+Text Label 2450 5400 0    50   ~ 0
+N3_D
+Text Label 2450 5500 0    50   ~ 0
+N4_A
+Text Label 2450 5600 0    50   ~ 0
+N4_B
+Text Label 2450 5700 0    50   ~ 0
+N4_C
+Text Label 2450 5800 0    50   ~ 0
+N4_D
+Text Label 3950 4800 0    50   ~ 0
+N3_0
+Text Label 3950 4900 0    50   ~ 0
+N3_1
+Text Label 3950 5000 0    50   ~ 0
+N3_2
+Text Label 3950 5100 0    50   ~ 0
+N3_3
+Text Label 3950 5200 0    50   ~ 0
+N3_4
+Text Label 3950 5300 0    50   ~ 0
+N3_5
+Text Label 3950 5400 0    50   ~ 0
+N3_6
+Text Label 3950 5500 0    50   ~ 0
+N3_7
+Text Label 3950 5600 0    50   ~ 0
+N3_8
+Text Label 3950 5700 0    50   ~ 0
+N3_9
+Text Label 3950 6450 0    50   ~ 0
+N4_0
+Text Label 3950 6550 0    50   ~ 0
+N4_1
+Text Label 3950 6650 0    50   ~ 0
+N4_2
+Text Label 3950 6750 0    50   ~ 0
+N4_3
+Text Label 3950 6850 0    50   ~ 0
+N4_4
+Text Label 3950 6950 0    50   ~ 0
+N4_5
+Text Label 3950 7050 0    50   ~ 0
+N4_6
+Text Label 3950 7150 0    50   ~ 0
+N4_7
+Text Label 3950 7250 0    50   ~ 0
+N4_8
+Text Label 3950 7350 0    50   ~ 0
+N4_9
+Text Label 8850 3200 0    50   ~ 0
+N5_0
+Text Label 8850 3300 0    50   ~ 0
+N5_1
+Text Label 8850 3400 0    50   ~ 0
+N5_2
+Text Label 8850 3500 0    50   ~ 0
+N5_3
+Text Label 8850 3600 0    50   ~ 0
+N5_4
+Text Label 8850 3700 0    50   ~ 0
+N5_5
+Text Label 8850 3800 0    50   ~ 0
+N5_6
+Text Label 8850 3900 0    50   ~ 0
+N5_7
+Text Label 8850 4000 0    50   ~ 0
+N5_8
+Text Label 8850 4100 0    50   ~ 0
+N5_9
+Text Label 7350 3500 0    50   ~ 0
+N5_A
+Text Label 7350 3600 0    50   ~ 0
+N5_B
+Text Label 7350 3700 0    50   ~ 0
+N5_C
+Text Label 7350 3800 0    50   ~ 0
+N5_D
+Text Label 7350 3900 0    50   ~ 0
+N6_A
+Text Label 7350 4000 0    50   ~ 0
+N6_B
+Text Label 7350 4100 0    50   ~ 0
+N6_C
+Text Label 7350 4200 0    50   ~ 0
+N6_D
+Text Label 8850 4850 0    50   ~ 0
+N6_0
+Text Label 8850 4950 0    50   ~ 0
+N6_1
+Text Label 8850 5050 0    50   ~ 0
+N6_2
+Text Label 8850 5150 0    50   ~ 0
+N6_3
+Text Label 8850 5250 0    50   ~ 0
+N6_4
+Text Label 8850 5350 0    50   ~ 0
+N6_5
+Text Label 8850 5450 0    50   ~ 0
+N6_6
+Text Label 8850 5550 0    50   ~ 0
+N6_7
+Text Label 8850 5650 0    50   ~ 0
+N6_8
+Text Label 8850 5750 0    50   ~ 0
+N6_9
 $EndSCHEMATC

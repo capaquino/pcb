@@ -701,8 +701,6 @@ F 3 "" H 3450 2550 50  0001 C CNN
 	1    3450 2550
 	1    0    0    -1  
 $EndComp
-Text Notes 650  2850 0    50   ~ 0
-TODO:\nfill in values\n
 $Comp
 L power:GND #PWR0123
 U 1 1 5E8AC237
