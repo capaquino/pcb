@@ -1118,4 +1118,16 @@ Text Label 8850 5650 0    50   ~ 0
 N6_8
 Text Label 8850 5750 0    50   ~ 0
 N6_9
+Text Label 4950 1650 0    50   ~ 0
+AnodeN1
+Text Label 4950 3300 0    50   ~ 0
+AnodeN2
+Text Label 4950 5400 0    50   ~ 0
+AnodeN3
+Text Label 4950 7050 0    50   ~ 0
+AnodeN4
+Text Label 9850 3800 0    50   ~ 0
+AnodeN5
+Text Label 9850 5450 0    50   ~ 0
+AnodeN6
 $EndSCHEMATC

@@ -1018,4 +1018,8 @@ F 3 "~" H 10100 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 10300 5500
+Text Label 3000 4600 0    50   ~ 0
+AnodeN7
+Text Label 3600 4600 0    50   ~ 0
+AnodeN8
 $EndSCHEMATC

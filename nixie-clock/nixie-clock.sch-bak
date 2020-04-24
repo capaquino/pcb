@@ -776,10 +776,10 @@ F 3 "" H 3100 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L nixies-us:IN-3 N8
+L nixies-us:IN-3 N8A
 U 1 1 5EA18190
 P 3700 4700
-F 0 "N8" V 3900 4828 45  0000 L CNN
+F 0 "N8A" V 3900 4828 45  0000 L CNN
 F 1 "IN-3" H 3700 4700 45  0001 L BNN
 F 2 "footprints-nad:IN-3_Bare" H 3730 4850 20  0001 C CNN
 F 3 "" H 3700 4700 50  0001 C CNN
@@ -970,4 +970,56 @@ Text Notes 6400 2850 0    50   ~ 0
 I2C
 Text Notes 6600 1900 0    50   ~ 0
 ISP
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5EA51322
+P 5900 5500
+F 0 "SW4" H 5900 5785 50  0000 C CNN
+F 1 "SW_Push" H 5900 5694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5900 5700 50  0001 C CNN
+F 3 "~" H 5900 5700 50  0001 C CNN
+	1    5900 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 5500
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5EA51ACC
+P 7300 5500
+F 0 "SW3" H 7300 5785 50  0000 C CNN
+F 1 "SW_Push" H 7300 5694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 7300 5700 50  0001 C CNN
+F 3 "~" H 7300 5700 50  0001 C CNN
+	1    7300 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 5500
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5EA520BA
+P 8550 5500
+F 0 "SW2" H 8550 5785 50  0000 C CNN
+F 1 "SW_Push" H 8550 5694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 8550 5700 50  0001 C CNN
+F 3 "~" H 8550 5700 50  0001 C CNN
+	1    8550 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 5500
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5EA526A8
+P 10100 5500
+F 0 "SW1" H 10100 5785 50  0000 C CNN
+F 1 "SW_Push" H 10100 5694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 10100 5700 50  0001 C CNN
+F 3 "~" H 10100 5700 50  0001 C CNN
+	1    10100 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 5500
+Text Label 3000 4600 0    50   ~ 0
+AnodeN7
+Text Label 3600 4600 0    50   ~ 0
+AnodeN8
 $EndSCHEMATC
