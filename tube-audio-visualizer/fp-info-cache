@@ -1,4 +1,4 @@
-16958723407971412
+16960334706909412
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75326,6 +75326,13 @@ Noval_B9A_Ceramic
 0
 9
 9
+footprints-nad
+hot-surface-warning
+
+
+0
+0
+0
 footprints-nad
 pichu1
 

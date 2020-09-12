@@ -542,7 +542,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 1450 4100 1450
 Wire Wire Line
-	4800 1450 5300 1450
+	4800 1450 4950 1450
 Wire Wire Line
 	5300 1450 5300 1350
 Wire Wire Line
@@ -705,4 +705,27 @@ Text Notes 2050 1150 0    50   ~ 0
 12V 2A DC\nWall Wart \nPower Supply
 Text Notes 1900 2950 0    50   ~ 0
 R2 reduces buzzing.\nWatched youtube video.
+$Comp
+L Device:C C7
+U 1 1 5F6736A3
+P 5150 2050
+F 0 "C7" H 5265 2096 50  0000 L CNN
+F 1 "1uF" H 5265 2005 50  0000 L CNN
+F 2 "footprints-nad:Cap_Film_250V_1uF_Nichicon" H 5188 1900 50  0001 C CNN
+F 3 "~" H 5150 2050 50  0001 C CNN
+	1    5150 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1900 4950 1900
+Wire Wire Line
+	4950 1900 4950 1450
+Connection ~ 4950 1450
+Wire Wire Line
+	4950 1450 5300 1450
+Wire Wire Line
+	5150 2200 4800 2200
+Connection ~ 4800 2200
+Text Notes 5250 2250 0    50   ~ 0
+250V Film
 $EndSCHEMATC
