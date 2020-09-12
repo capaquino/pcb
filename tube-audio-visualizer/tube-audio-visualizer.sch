@@ -703,4 +703,6 @@ $EndComp
 Connection ~ 2600 1650
 Text Notes 2050 1150 0    50   ~ 0
 12V 2A DC\nWall Wart \nPower Supply
+Text Notes 1900 2950 0    50   ~ 0
+R2 reduces buzzing.\nWatched youtube video.
 $EndSCHEMATC
