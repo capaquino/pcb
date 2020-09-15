@@ -531,12 +531,8 @@ Text GLabel 1300 6700 0    50   Output ~ 0
 SPI_SCK
 Text GLabel 1300 7100 0    50   Output ~ 0
 SPI_RST
-Text GLabel 6150 1950 2    50   Input ~ 0
-SPI_MOSI
 Text GLabel 6150 1850 2    50   Output ~ 0
 SPI_MISO
-Text GLabel 6150 1750 2    50   Input ~ 0
-SPI_SCK
 Wire Wire Line
 	5800 1750 6150 1750
 Wire Wire Line
@@ -1022,4 +1018,10 @@ Text Label 3000 4600 0    50   ~ 0
 AnodeN7
 Text Label 3600 4600 0    50   ~ 0
 AnodeN8
+Text Notes 6800 2250 0    50   ~ 0
+Error: \nPB3=SPI_SCK\nPB5=SPI_MOSI\n\nCorrect:\nPB3=SPI_MOSI\nPB5=SPI_SCK\n\n
+Text GLabel 6150 1750 2    50   Input ~ 0
+SPI_SCK
+Text GLabel 6150 1950 2    50   Input ~ 0
+SPI_MOSI
 $EndSCHEMATC
